@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Aruba
+  adjective: Aruban
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -56,9 +56,9 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: cbs@setarnet.aw  
+  suggestions:  cbs@setarnet.aw  
+  functional:  cbs@setarnet.aw  
 empty_metadata_placeholder: ''
 empty_metadata_placeholder_sources: ''
 environment: staging
@@ -79,18 +79,16 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Lorem ipsum
+  - title: Inori
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
+      This is a proprietary system developed by Central Bureau Of Statistics (CBS) Aruba to monitor the production process of the indicators within CBS.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
     rule_color: ''
-  - title: Nam vestibulum
+  - title: Open SDG used by Aruba
     content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+      Beside the Inori system CBS Aruba used the OpenSdg instance to publish the data of the indicators produced.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
