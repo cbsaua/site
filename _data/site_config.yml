@@ -79,9 +79,9 @@ frontpage_cards:
     button_label: ''
     button_link: ''
     rule_color: ''
-  - title: Inori
+  - title: Promosi 
     content: |
-      This is a proprietary system developed by Central Bureau Of Statistics (CBS) Aruba to monitor the production process of the indicators within CBS.
+      This is a proprietary system developed by Central Bureau Of Statistics (CBS) Aruba to monitor the production process of the indicators within CBS. The name is deducted from <i>Pro</i>duction <i>Mon</i>itoring <i>S</i>DG <i>i</i>ndicator (Promosi)
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
