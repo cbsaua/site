@@ -52,8 +52,8 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: ''
-  message: ''
+  phase: 'BETA'
+  message: 'This is the initial site where the indicators of Aruba will be published'
   hidden: false
 email_contacts:
   questions: cbs@setarnet.aw  
@@ -88,7 +88,7 @@ frontpage_cards:
     rule_color: ''
   - title: Open SDG used by Aruba
     content: |
-      Beside the Inori system CBS Aruba used the OpenSdg instance to publish the data of the indicators produced.
+      Beside the Promosi system CBS Aruba used the OpenSdg instance to publish the data of the indicators produced.
     include: ''
     button_label: Read more
     button_link: 'https://example.com'
@@ -109,10 +109,10 @@ graph_color_headline_high_contrast: '#55a6e5'
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
-graph_title_from_series: false
+graph_title_from_series: true
 header_language_toggle: dropdown
 hide_empty_metadata: true
-hide_single_series: true
+hide_single_series: false
 hide_single_unit: true
 ignored_disaggregations: []
 indicator_config_form:
@@ -135,18 +135,17 @@ indicator_metadata_form:
   exclude_fields: []
   translated: false
 indicator_tabs:
-  tab_1: ''
-  tab_2: ''
-  tab_3: ''
-  tab_4: ''
+  tab_1: 'chart'
+  tab_2: 'table'
+  tab_3: hide
+  tab_4: hide
 languages:
   - en
-  - es
 languages_public: []
 logos: []
 map_layers: []
 map_options:
-  disaggregation_controls: false
+  disaggregation_controls: true
   minZoom: 5
   maxZoom: 10
   tileURL: ''
@@ -195,21 +194,21 @@ menu:
     dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
-  - scope: national
-    title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
   - scope: global
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
   - scope: sources
     title: indicator.sources
     description: ''
+  - scope: national
+    title: indicator.national_metadata
+    description: indicator.national_metadata_blurb
 meta_tags: []
 news:
-  category_links: false
+  category_links: true
 observation_attributes: []
 progress_status:
-  status_heading: ''
+  status_heading: 'This is the progress status'
   status_help: ''
   status_types: []
 progressive_web_app:
@@ -225,7 +224,7 @@ reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_indicator_count_label: ''
-  disaggregation_tabs: false
+  disaggregation_tabs: true
   status_types:
     - value: notstarted
       label: status.no_data_available
