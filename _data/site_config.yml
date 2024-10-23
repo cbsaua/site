@@ -20,7 +20,7 @@ breadcrumbs:
     - path: /news
       label: menu.updates
 cookie_consent_form:
-  enabled: false
+  enabled: true
 country:
   name: Aruba
   adjective: Aruban
@@ -53,7 +53,7 @@ data_fields:
 date_formats: []
 disclaimer:
   phase: 'BETA'
-  message: 'This is the initial site where the indicators of Aruba will be published'
+  message: 'This is the initial site where the indicators of Aruba will be published by Central Bureay of Statistics Aruba.'
   hidden: false
 email_contacts:
   questions: cbs@setarnet.aw  
