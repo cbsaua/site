@@ -59,8 +59,8 @@ email_contacts:
   questions: cbs@setarnet.aw  
   suggestions:  cbs@setarnet.aw  
   functional:  cbs@setarnet.aw  
-empty_metadata_placeholder: ''
-empty_metadata_placeholder_sources: ''
+empty_metadata_placeholder: 'No metadata available yet'
+empty_metadata_placeholder_sources: 'No metadata about sources'
 environment: staging
 footer_language_toggle: none
 footer_menu:
@@ -200,7 +200,7 @@ metadata_tabs:
     description: indicator.global_metadata_blurb
   - scope: sources
     title: indicator.sources
-    description: ''
+    description: indicator.global_sources.blurb
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
