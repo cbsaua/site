@@ -203,8 +203,7 @@ metadata_tabs:
     description: indicator.national_metadata_blurb
   - scope: sources
     title: indicator.sources
-    description: >-
-      Dit is HTML text dat ik kan plaatsen als sources voor alle indicators
+    description: 'dit moet een text zijn site config'
 meta_tags: []
 news:
   category_links: true
