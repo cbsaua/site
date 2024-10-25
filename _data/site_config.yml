@@ -132,14 +132,14 @@ indicator_metadata_form:
   scopes:
     - national
     - global
-    - sources
+    - source_1
   exclude_fields: []
   translated: false
 indicator_tabs:
   tab_1: 'chart'
   tab_2: 'table'
-  tab_3:  hide
-  tab_4:  hide
+  tab_3: hide
+  tab_4: hide
 languages:
   - en
 languages_public: []
@@ -203,7 +203,7 @@ metadata_tabs:
     description: indicator.national_metadata_blurb
   - scope: sources
     title: indicator.sources
-    description: 'dit moet een text zijn site config'
+    description: indicator.national_metadata_blurb
 meta_tags: []
 news:
   category_links: true
