@@ -132,14 +132,14 @@ indicator_metadata_form:
   scopes:
     - national
     - global
-    - source_1
+    - sources
   exclude_fields: []
   translated: false
 indicator_tabs:
   tab_1: 'chart'
   tab_2: 'table'
-  tab_3: hide
-  tab_4: hide
+  tab_3: 'extra1'
+  tab_4: 'extra2'
 languages:
   - en
 languages_public: []
@@ -203,7 +203,8 @@ metadata_tabs:
     description: indicator.national_metadata_blurb
   - scope: sources
     title: indicator.sources
-    description: indicator.global_sources.blurb
+    description: >-
+      Dit is HTML text dat ik kan plaatsen als sources voor alle indicators
 meta_tags: []
 news:
   category_links: true
