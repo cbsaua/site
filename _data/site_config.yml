@@ -138,8 +138,8 @@ indicator_metadata_form:
 indicator_tabs:
   tab_1: 'chart'
   tab_2: 'table'
-  tab_3: 'extra1'
-  tab_4: 'extra2'
+  tab_3:  hide
+  tab_4:  hide
 languages:
   - en
 languages_public: []
