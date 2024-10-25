@@ -203,7 +203,7 @@ metadata_tabs:
     description: indicator.national_metadata_blurb
   - scope: sources
     title: indicator.sources
-    description: yasmara
+    description: 'yasmara'
 meta_tags: []
 news:
   category_links: true
