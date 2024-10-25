@@ -132,7 +132,7 @@ indicator_metadata_form:
   scopes:
     - national
     - global
-    - sources_alt
+    - source_1
   exclude_fields: []
   translated: false
 indicator_tabs:
@@ -198,7 +198,7 @@ metadata_tabs:
   - scope: global
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
-  - scope: sources_alt
+  - scope: source_1
     title: indicator.sources
     description: indicator.global_sources.blurb
   - scope: national
