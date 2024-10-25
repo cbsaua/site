@@ -145,7 +145,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241025011300">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241025212634">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -283,11 +283,23 @@ layout-indicator-iframe
 </div>
 <div id="main-content" class="container goal-3" role="main">
   
+<div class="row alert data_notice_class" id="data-notice">
+  <div class="col-xs-2 col-sm-1">
+    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+  </div>
+  <div class="col-xs-10 col-sm-11 data-notice">
+    <div class="notice-heading" role="alert"><p>data_notice_heading</p>
+</div>
+    <div><p>data_notice_text</p>
+</div>
+  </div>
+</div>
+
 
   
 <div class="row metadata-available-indicator">
   <div class="col-xs-12">
-    <h2></h2>
+    <h2>indicator_available</h2>
   </div>
 </div>
 
@@ -324,6 +336,13 @@ layout-indicator-iframe
 
   
 
+<div class="row" id="page-content">
+  <div class="col-xs-12">
+    <p>page_content</p>
+
+  </div>
+</div>
+
 
   
 
@@ -333,7 +352,7 @@ layout-indicator-iframe
   id="indicatorData"
   data-indicatorid='indicator_3-7-2'
   data-id="3-7-2"
-  data-country="Aruba"
+  data-country="national_geographical_coverage"
   data-charttitle="Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group"
   data-charttitles="[]"
   data-measurementunit="per 1000"
@@ -497,7 +516,13 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>Central Bureau of Statistics nieuwe config style3, Central Bureau of Statistics nieuwe config style, </dd>
+        
 
+        
+        <dt>Geographical Area:</dt>
+        <dd>national_geographical_coverage</dd>
         
 
         <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
@@ -505,11 +530,25 @@ data-event-label="Change to Table tab"
 
         
         <dt>Copyright:</dt>
-        <dd>Central Bureau of Statistics Aruba</dd>
+        <dd>copyright Central Bureau of Statistics Aruba</dd>
         
 
         
+        <dt>Footnote:</dt>
+        <dd>data_footnote</dd>
+        
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ></dd>
+        
         
 
         
@@ -570,7 +609,13 @@ data-event-label="Change to Table tab"
   <h5 class="sr-only">Chart details</h5>
     <dl>
         
+        <dt>Source:</dt>
+        <dd>Central Bureau of Statistics nieuwe config style3, Central Bureau of Statistics nieuwe config style, </dd>
+        
 
+        
+        <dt>Geographical Area:</dt>
+        <dd>national_geographical_coverage</dd>
         
 
         <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
@@ -578,11 +623,25 @@ data-event-label="Change to Table tab"
 
         
         <dt>Copyright:</dt>
-        <dd>Central Bureau of Statistics Aruba</dd>
+        <dd>copyright Central Bureau of Statistics Aruba</dd>
         
 
         
+        <dt>Footnote:</dt>
+        <dd>data_footnote</dd>
+        
 
+        
+        
+        <dt
+          data-for-series=""
+          data-for-unit=""
+        >:</dt>
+        <dd
+          data-for-series=""
+          data-for-unit=""
+        ></dd>
+        
         
 
         
@@ -910,8 +969,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">UN designated tier </th>
+        <td>
           
+            <p>un_designated_tier</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
   </tbody>
 </table>
 
@@ -941,13 +1011,35 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Indicator information </th>
+        <td>
           
-      
-      
-      
-        
+            <p>SDG_INDICATOR_INFO</p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Goal </th>
+        <td>
+          
+            <p>SDG_GOAL</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -967,13 +1059,35 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
           
-      
-      
-      
-        
+            <p>SDG_INDICATOR</p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Series </th>
+        <td>
+          
+            <p>SDG_SERIES_DESCR</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -993,13 +1107,35 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Related indicators </th>
+        <td>
           
-      
-      
-      
-        
+            <p>SDG_RELATED_INDICATORS</p>
+
           
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data reporter </th>
+        <td>
+          
+            <p>CONTACT</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1008,7 +1144,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Organisation </th>
         <td>
           
-            <p>Central Bureau of Statistics Aruba</p>
+            <p>CONTACT_ORGANISATION Central Bureau of Statistics Aruba</p>
 
           
         </td>
@@ -1019,78 +1155,243 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Contact person(s) </th>
+        <td>
           
-      
-      
-      
-        
+            <p>CONTACT_NAME</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact organisation unit </th>
+        <td>
           
-      
-      
-      
+            <p>ORGANISATION_UNIT</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact person function </th>
+        <td>
           
-      
-      
-      
+            <p>CONTACT_FUNCT</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact phone </th>
+        <td>
           
-      
-      
-      
+            <p>CONTACT_PHONE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact mail </th>
+        <td>
           
-      
-      
-      
+            <p>CONTACT_MAIL</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact email </th>
+        <td>
           
-      
-      
-      
+            <p>CONTACT_EMAIL</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Definition, concepts, and classifications </th>
+        <td>
           
-      
-      
-      
+            <p>IND_DEF_CON_CLASS</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Definition and concepts </th>
+        <td>
           
-      
-      
-      
+            <p>STAT_CONC_DEF</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unit of measure </th>
+        <td>
           
-      
-      
-      
+            <p>UNIT_MEASURE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Classifications </th>
+        <td>
           
-      
-      
-      
+            <p>CLASS_SYSTEM</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data source type and collection method </th>
+        <td>
           
-      
-      
-      
+            <p>SRC_TYPE_COLL_METHOD’’</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
           
-      
-      
-      
+            <p>SOURCE_TYPE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data collection method </th>
+        <td>
           
-      
-      
-      
+            <p>COLL_METHOD</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data collection calendar </th>
+        <td>
           
+            <p>FREQ_COLL</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data release calendar </th>
+        <td>
+          
+            <p>REL_CAL_POLICY</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1099,7 +1400,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Data providers </th>
         <td>
           
-            <p>This datasource link is defined in the 3.7.2.yml in de data/meta  folder</p>
+            <p>DATA_SOURCE This datasource link is defined in the 3.7.2.yml in de data/meta  folder</p>
 
           
         </td>
@@ -1110,73 +1411,227 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Data compilers </th>
+        <td>
           
-      
-      
-      
-        
+            <p>COMPILING_ORG</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Institutional mandate </th>
+        <td>
           
-      
-      
-      
+            <p>INST_MANDATE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Other methodological considerations </th>
+        <td>
           
-      
-      
-      
+            <p>OTHER_METHOD</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Rationale </th>
+        <td>
           
-      
-      
-      
+            <p>RATIONALE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Comment and limitations </th>
+        <td>
           
-      
-      
-      
+            <p>REC_USE_LIM</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Method of computation </th>
+        <td>
           
-      
-      
-      
+            <p>DATA_COMP</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Validation </th>
+        <td>
           
-      
-      
-      
+            <p>DATA_VALIDATION</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Methods and guidance available to countries for the compilation of the data at the national level </th>
+        <td>
           
-      
-      
-      
+            <p>DOC_METHOD</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Quality management </th>
+        <td>
           
-      
-      
-      
+            <p>QUALITY_MGMNT</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Quality assurance </th>
+        <td>
           
-      
-      
-      
+            <p>QUALITY_ASSURE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Quality assessment </th>
+        <td>
           
-      
-      
-      
+            <p>QUALITY_ASSMNT</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data availability and disaggregation </th>
+        <td>
           
-      
-      
-      
+            <p>COVERAGE</p>
+
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Comparability/deviation from international standards </th>
+        <td>
           
+            <p>COMPARABILITY</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">References and Documentation </th>
+        <td>
+          
+            <p>OTHER_DOC</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
       
       
       
@@ -1200,7 +1655,7 @@ data-event-label="Change to indicator.sources tab"
         <th scope="row">Metadata last updated </th>
         <td>
           
-            Oct 24, 2024
+            Oct 25, 2024
           
         </td>
         </tr>
@@ -1303,6 +1758,588 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      
+        <h4>Source 1</h4>
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Central Bureau of Statistics nieuwe config style3</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            <p>Yearly3</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+      
+        <h4>Source 2</h4>
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Central Bureau of Statistics nieuwe config style</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            <p>Yearly</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+    
+    
+    <div class="col-md-6">
+      
+      
+        <h4>Source 3</h4>
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1353,12 +2390,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20241025011300'></script>
+<script src='/site/assets/js/sdg.js?v=20241025212634'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20241025011300"></script><script>
+    <script src="/site/assets/js/custom.js?v=20241025212634"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
