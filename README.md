@@ -4,7 +4,7 @@ This is a starter repository to help in implementing the [Open SDG](https://gith
 
 # Changes on 25 oktober 2024 to be propagated
 # changes on 28 okt 2024
-
+# changes on 28 okt 2024
 
 
 
