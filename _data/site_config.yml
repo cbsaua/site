@@ -200,16 +200,16 @@ metadata_tabs:
     description: indicator.global_metadata_blurb
   - scope: national
     title: indicator.national_metadata
-    description: indicator.national_metadata_blurb
+    description: ''
   - scope: sources
     title: indicator.sources
-    description: indicator.global_sources.blurb
+    description: ''
 meta_tags: []
 news:
   category_links: true
 observation_attributes: []
 progress_status:
-  status_heading: 'This is the progress status'
+  status_heading: 'Target'
   status_help: ''
   status_types:
     - value: not_available
