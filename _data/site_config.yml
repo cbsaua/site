@@ -52,7 +52,7 @@ data_fields:
   series: ''
 date_formats: []
 disclaimer:
-  phase: 'BETA - 30 oct 2024'
+  phase: 'BETA
   message: 'This is the initial site where the indicators of Aruba will be published.'
   hidden: false
 email_contacts:
