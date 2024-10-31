@@ -6,6 +6,7 @@ This is a starter repository to help in implementing the [Open SDG](https://gith
 # changes on 28 okt 2024
 # changes pn 29 okt 2024
 
+Changes to 31 okt 2024
 
 
 
