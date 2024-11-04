@@ -87,7 +87,7 @@ frontpage_cards:
       Beside the Promosi system CBS Aruba used the OpenSdg instance to publish the data of the indicators produced.
     include: ''
     button_label: Read more
-    button_link: 'https://example.com'
+    button_link: 'https://cbsaua.github.io/site/opensdg/'
     rule_color: ''
 frontpage_goals_grid:
   title: frontpage.heading_short
