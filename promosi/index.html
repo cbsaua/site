@@ -140,7 +140,7 @@ var translations = {
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241104171319">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20241104173017">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -264,14 +264,22 @@ data-event-label="high"
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
         <h1 class="post-title" itemprop="name headline">Production Monitoring SDG indicator (Promosi)</h1>
         <div class="post-header">
-          <time class="post-date" datetime="2024-11-04T00:00:00+00:00" itemprop="datePublished">Nov 04, 2024</time><ul class="post-categories"><li><a href="/site/categories/#International" title="View all posts in the International category">International</a></li></ul><span class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jair Tromp</span></span></div>
+          <time class="post-date" datetime="2024-11-04T00:00:00+00:00" itemprop="datePublished">Nov 04, 2024</time><ul class="post-categories"><li><a href="/site/categories/#International" title="View all posts in the International category">International</a></li></ul><span class="post-author" itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Yasmara Pourrier</span></span></div>
 
         <div class="post-content" itemprop="articleBody">
           
 
 
-    <p>During 2024 CBS find the need to organize the production of the SDG indicators within CBS. 
-For every indicator the same process has to be followed to reach the point where the SDG Indicator data and metadata can be upload to the OpenSDG.</p>
+    <p>During 2024 CBS find the need to organize the production of the SDG indicators within CBS.</p>
+
+<p>For every indicator the same process has to be followed to reach the point where the SDG Indicator data and metadata can be upload to the OpenSDG.</p>
+
+<p>This process includes requesting and gathering of the data, verification of the data, data entry of the data in the database of Promosi, program the nessesary calculations of the indicator in the database, quality assessment of the calculated data and generating the metadata to upload into the OpenSDG instance.</p>
+
+<p>We have designed a generic data structure to accommodate the information about indicators within the PROMOSI database that generates files for the OpenSDG platform. This generic data structure though can not accommodate the indicators that are more complicated for instance 17.13.1 Macroeconomic Dashboard.</p>
+
+<p>We have chosen to process and produce the indicators that are the hanging fruits, that data is available already and can be calculated and published.
+All complicated indicators are parked. And these will be announced as parked because of the time needed to produce these.</p>
 
 
 
@@ -357,12 +365,12 @@ For every indicator the same process has to be followed to reach the point where
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20241104171319'></script>
+<script src='/site/assets/js/sdg.js?v=20241104173017'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20241104171319"></script><script>
+    <script src="/site/assets/js/custom.js?v=20241104173017"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
