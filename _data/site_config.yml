@@ -77,14 +77,14 @@ frontpage_cards:
     rule_color: ''
   - title: Promosi 
     content: |
-      This is a proprietary system developed by Central Bureau Of Statistics (CBS) Aruba to monitor the production process of the indicators within CBS. The name is deducted from <i>Pro</i>duction <i>Mon</i>itoring <i>S</i>DG <i>i</i>ndicator (Promosi)
+      This is a proprietary system developed by the Central Bureau Of Statistics of Aruba (CBS) to monitor the production process of the SDG indicators within CBS. The name is deducted from <i>Pro</i>duction <i>Mon</i>itoring <i>S</i>DG <i>i</i>ndicator (Promosi)
     include: ''
     button_label: Read more
     button_link: 'https://cbsaua.github.io/site/promosi/'
     rule_color: ''
   - title: Open SDG used by Aruba
     content: |
-      Beside the Promosi system CBS Aruba used the OpenSdg instance to publish the data of the indicators produced.
+      Further to the Promosi system, the CBS used the OpenSdg instance to publish the data of the SDG indicators produced.
     include: ''
     button_label: Read more
     button_link: 'https://cbsaua.github.io/site/opensdg/'
