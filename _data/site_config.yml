@@ -53,7 +53,7 @@ data_fields:
 date_formats: []
 disclaimer:
   phase: 'BETA'
-  message: 'This is the initial site where the indicators of Aruba will be published.'
+  message: 'This is the initial site where the SDG indicators of Aruba will be published.'
   hidden: false
 email_contacts:
   questions: cbs@setarnet.aw  
