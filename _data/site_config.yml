@@ -56,9 +56,9 @@ disclaimer:
   message: 'This is the initial site where the indicators of Aruba will be published.'
   hidden: false
 email_contacts:
-  questions: cbs@setarnet.aw  
-  suggestions:  cbs@setarnet.aw  
-  functional:  cbs@setarnet.aw  
+  questions: sdg@cbs.aw  
+  suggestions:  sdg@cbs.aw  
+  functional:  sdg@cbs.aw  
 empty_metadata_placeholder: 'No metadata available yet'
 empty_metadata_placeholder_sources: 'No metadata about sources'
 environment: staging
