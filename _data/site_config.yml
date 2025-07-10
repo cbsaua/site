@@ -54,7 +54,7 @@ date_formats: []
 disclaimer:
   phase: 'BETA'
   message: 'This is the initial site where the SDG indicators of Aruba will be published.'
-  hidden: false
+  hidden: true
 email_contacts:
   questions: sdg@cbs.aw  
   suggestions:  sdg@cbs.aw  
