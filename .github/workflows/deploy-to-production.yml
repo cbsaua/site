@@ -15,17 +15,13 @@
 #
 # ****************************************************************************
 
-# Запускаю workflow вручную через коммит
-
 name: Deploy to production
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - master
-  repository_dispatch:
-    types: rebuild-production
+  workflow_dispatch:
 
 jobs:
   build:
@@ -33,7 +29,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
     - name: Set up Ruby 2.6
       uses: ruby/setup-ruby@v1
       with:
